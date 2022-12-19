@@ -104,7 +104,7 @@ function buildCharts(sample) {
       x: ids,
       y: values,
       text: labels,
-      type: "bar",
+      type: "bubble",
       marker: {size: values, color: ids}
 
   }];
